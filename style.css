@@ -127,7 +127,8 @@ button:active {
 .roxo {
     background-color: #EDE7F1;
 }
-.circulo{
+
+.circulo {
     width: 100%;
     height: 100%;
     background: #F7DA47;
@@ -136,4 +137,50 @@ button:active {
     left: 0;
     clip-path: circle(600px at right 1000px);
 
+}
+
+@media screen and (max-width:998px) {
+    .caixa-superior {
+        width: 20px;
+        height: 100px;
+        justify-content:flex-start;
+    }
+
+    .caixa {
+        width: 100px;
+        height: 20%;
+        text-align: start;
+
+    }
+    .cor {
+        width: 20px;
+        height: 100px;
+        text-align: center;
+    }
+    .circulo {
+        width: 10%;
+        height: 10%;
+    }
+
+    .caixa-superior {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo {
+        text-align: center;
+        width: 15px;
+        height: 15px;
+        border-bottom:none;
+    }
+    li {
+        font-size: 10px;
+        font-weight: 200;
+        color: #373737;
+    }
+    ul {
+        display: inline-block;
+        gap: 90px;
+        text-size-adjust: 20px;
+    }
 }
